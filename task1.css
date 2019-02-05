@@ -1,0 +1,209 @@
+/* #main{
+width:1366px;
+height:457px;
+
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+   } */
+
+.demo1{
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547269499843&di=cdc84865e51fcb175d91b15f39e0ac03&imgtype=0&src=http%3A%2F%2Fwx4.sinaimg.cn%2Flarge%2F3f602929ly1fumak2s9rzj20m80citwl.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    /*padding-top: 190px;*/
+    margin:0 auto;
+    background-attachment: fixed;
+    background-position: center 0;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    opacity:0.8;
+    text-align:center;
+    background-size: cover;
+}
+
+.demo{
+  z-index: -1;
+  color:white;
+  font-size: 65px;
+    position: absolute;
+    float: right;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      text-rendering: optimizeLegibility;
+      text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  text-align:center;
+  background:transparent;
+
+
+
+  font-family: "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", 微软雅黑, "Segoe UI", Tahoma, 宋体b8b体, SimSun, sans-serif;
+}
+.logo{
+  background:transparent;
+  top:40px;
+left:80px;
+position:absolute;;
+text-align:center;
+}
+.logo {
+    margin-left: 50px;
+    margin-top: -5px;
+    /* width: 60px;
+    height: 66px; */
+    display: inline-block;
+    float: left;
+    /* background-image: -webkit-image-set(url() 2x); */
+    background-position: 10px -365px;
+
+}
+#tubiao1{
+  width: 60px;
+  height: auto;
+
+}
+#biaoti1{
+  width: 100px;
+  height: auto;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: white;
+  font-size: 35px;
+  margin-left: 45px;
+  margin-top: -50px;
+
+}
+#biaoti2{
+  font-size: 9px;
+  font-weight: bold;
+  color: white;
+  font-family:monospace;
+  margin-top: 3px;
+
+
+
+}
+
+ *{padding:0px; margin:0px;}
+  a{
+    text-decoration:none;
+    color:black;
+  }
+  a:hover{
+    text-decoration:none;
+    /* color:#336699; */
+  }
+   #tab{
+     width:650px;
+     /* padding-top:280px; */
+
+     height:150px;
+     /* margin:10px; */
+     position:absolute;
+     top:70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 10;
+   }
+   #tab ul{
+     list-style:none;
+      display:;
+
+      height:30px;
+      line-height:30px;
+      /* border-bottom:2px #C88 solid; */
+    }
+   #tab ul li{
+     background:transparent;
+     font-weight:bold;
+     font-family: SimHei;
+     color:white;
+     cursor:pointer;
+     float:left;
+     list-style:none;
+     height:29px;
+     line-height:29px;
+     padding:0px 10px;
+     margin:0px 10px;
+     border:0px solid #BBB;
+     z-index: 1;
+      /* border-bottom:2px solid #C88; */
+    }
+/* 选项卡边框样式 */
+   #tab ul li.on{
+     /* border-top:2px solid Saddlebrown; */
+      border-bottom:5px solid #FFF;
+      color：white；
+    }
+    #tab ul li.off{
+      /* border-top:2px solid Saddlebrown; */
+       /* border-bottom:2px solid #FFF; */
+       color：grey；
+     }
+   #tab div .box{
+     height:50px;
+     width:650px;
+     line-height:32px;
+     /* top:80%; */
+      border-top:none;
+     /* top:900px; */
+      /* padding:10px; */
+      border:0px solid #336699;
+      padding:18px;
+      /* position: absolute; */
+      position: relative;
+      color: #aaa;
+         font-size: 16px;
+         font-family: SimHei;
+
+    }
+   .hide{
+     display:none;}
+   .search{
+     font-family: "Microsoft Yahei";
+     /* font-family: Tahoma; */
+     position: absolute;
+     font-size: 17px;
+     /* left:700px; */
+     /* top:314px; */
+     left:100%;
+     top: 23%;
+
+     height: 50px;
+
+          width:100px;
+      border:0px solid #336699;
+    /* float: right; */
+    background:#00ae66;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;}
+/* 上传图片 */
+     .img-container{
+       position: absolute;;
+       top:380px;
+        width: 701px;
+        height: 150px;
+        /* background:#F2F2F2; */
+        background:white;
+        margin-bottom:35px;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+    .img-container>img{
+        width: 701px;
+        height: 150px;
+
+    }
+     .img{
+        width: 710px;
+        height: 150px;
+    }
+    /* .img-btn{
+      position: absolute;
+      top:530px;
+    } */
