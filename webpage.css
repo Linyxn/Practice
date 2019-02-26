@@ -40,7 +40,7 @@
 #secdiv2{
   position: relative;
   margin-left: 820px;
-
+  margin-top: 50px;
   font-size: 16px;
   color: #6495ED;
 
@@ -48,6 +48,7 @@
 #secdiv3{
   position: relative;
   margin-left: 820px;
+
 
   font-size: 16px;
   color: gray;
