@@ -1,16 +1,23 @@
 /* #main{
+
 width:1366px;
+
 height:457px;
 
+
+
 MARGIN-RIGHT: auto;
+
 MARGIN-LEFT: auto;
+
    } */
+
 
 
 
 .demo1{
 
-    background: url(bg001.png) no-repeat;
+    background: url(bg001.jpeg) no-repeat;
 
     width: 100%;
 
@@ -144,7 +151,7 @@ text-align:center;
 
 #biaoti2{
 
-  font-size: 9px;
+  font-size: 11px;
 
   font-weight: bold;
 
@@ -403,4 +410,3 @@ text-align:center;
       top:530px;
 
     } */
-
