@@ -1,0 +1,17 @@
+.result{
+  background-color: white;
+  height: 45px;
+  width:720px;
+  position: absolute;
+  left:6%;
+  top: 55%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: height;
+
+
+  color: black;
+
+}
